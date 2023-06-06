@@ -117,7 +117,7 @@ const renewToken = async(req, res) => {
     })
 }
 
-module.exports = {
+module.exports = { 
     crearUsuario,
     login,
     renewToken
