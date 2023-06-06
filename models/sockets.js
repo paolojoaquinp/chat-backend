@@ -10,7 +10,7 @@ class Sockets {
 
         this.io = io;
 
-        this.socketEvents();
+        this.socketEvents(); 
     }
 
     socketEvents() {
