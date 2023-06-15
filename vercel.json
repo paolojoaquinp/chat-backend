@@ -1,7 +1,7 @@
 {
     "version": 2,
     "name": "chat-app-server-paolo",
-    "alias": ["chat-app-api"],
+    "alias": ["chat-app-paolo-api"],
     "builds": [{ "src": "index.js", "use": "@vercel/node" }],
     "routes": [
       {
