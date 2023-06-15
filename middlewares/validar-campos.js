@@ -2,6 +2,7 @@ const { validationResult } = require('express-validator');
 
 
 const validarCampos = (req, res, next ) => {
+    res.setHeader('Content-Type', 'application/json');
 
     const errores = validationResult( req );
 

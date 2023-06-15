@@ -1,6 +1,7 @@
 const Mensaje = require('../models/mensaje');
 
 const obtenerChat = async( req, res ) => {
+    res.setHeader('Content-Type', 'application/json');
 
     const miId = req.uid;
     const mensajesDe = req.params.de;
